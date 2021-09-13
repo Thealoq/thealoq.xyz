@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #313131;
+  font-family: 'Glory', sans-serif;
+}
+
+a{
+  
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 1rem;
+}
+
+nav .pad{
+  position: fixed;
+  padding: 2rem;
+  display: flex;
+  margin-left: 0%;
+  border-left: 5px solid #666666;
+
+}
+
+.start{
+  display: flex;
+}
+
+.maintwo{
+  padding: 2rem;
+  width: 20rem;
+  height: 1rem;
+  margin-top: 10%;
+  margin-left: 30%;
+  border-left: 5px solid #666666;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.main{
+  position: absolute;
+  padding: 2rem;
+  width: 20rem;
+  height: 1rem;
+  margin-top: 10%;
+  margin-left:40%;
+}
+
+.maintwo i{
+  margin-left: 1rem;
+}
+
+
+.maintree{
+  position: absolute;
+  padding: 2rem;
+  width: 20rem;
+  height: 1rem;
+  margin-top: 10%;
+  margin-left:50%;
+}
+
+.start :hover{
+  transform: scale(1.1);
+}
+
+.pad :hover{
+  transform: scale(1.2);
+}
+
+.project{
+  margin-top: 60rem;
+  padding: 1rem;
+  background-color: #3f3f3f;
+  text-align: center;
+  height: 40rem;
+}
+
+.project a{
+  margin-right: 10rem;
+}
+
+.footer{
+  padding: 2rem;
+  background-color: #313131;
+  text-align: center;
+}
+
+
+
+.box{
+  padding: 2rem;
+  width: 20rem;
+  border-radius: 10px;
+  margin-left: 35%;
+  margin-top: 15rem;
+  border-style: solid;
+  border-color: #2c2b2b;
+}
+
+
+.box img{
+ width: 20rem;
+} 
+
+.box a{
+ margin-left: 20%;
+}
